@@ -20,9 +20,11 @@ Map symptoms to [contract.md](contract.md) rules and validator IDs.
 
 ## GoDaddy CLI
 
-The `gddy` CLI drives Node.js Hosting from the terminal: uploading a new version, publishing to **preview** or **publish**, managing secrets, and reading platform logs. When the checks above do not explain a failure, logs are the next step, covering install and build output for a deploy and the app's stdout and stderr for a crash after start.
+The `gddy` CLI drives Node.js Hosting from the terminal: uploading a new version, deploying to **preview** or **publish**, managing secrets, and reading platform logs. When the checks above do not explain a failure, logs are the next step, covering install and build output for a deploy and the app's stdout and stderr for a crash after start.
 
-Setup and authentication: [developer.godaddy.com](https://developer.godaddy.com/llms.mdx/api-users/cli/set-up). Hosting commands are in beta and not in those docs; [github.com/godaddy/cli](https://github.com/godaddy/cli) is the source of truth for what exists.
+- [Setup and authentication](https://developer.godaddy.com/llms.mdx/api-users/cli/set-up)
+- [Hosting commands](https://developer.godaddy.com/llms.mdx/api-users/cli/reference)
+- [godaddy/cli on GitHub](https://github.com/godaddy/cli): the source of truth for what the CLI can currently do
 
 ## Validator exit codes
 
